@@ -1,0 +1,127 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+4_17.cpp	././4_17.cpp	1;"	F
+box	././ex04.cpp	/^	box(double l, double w, double h)$/;"	f	class:box	access:public	signature:(double l, double w, double h)
+box	././ex04.cpp	/^class box{$/;"	c	file:
+box::box	././ex04.cpp	/^	box(double l, double w, double h)$/;"	f	class:box	access:public	signature:(double l, double w, double h)
+box::height	././ex04.cpp	/^	double length, width, height;$/;"	m	class:box	file:	access:private
+box::length	././ex04.cpp	/^	double length, width, height;$/;"	m	class:box	file:	access:private
+box::vol	././ex04.cpp	/^	void vol(char *test, char a, int c)$/;"	f	class:box	access:public	signature:(char *test, char a, int c)
+box::volume	././ex04.cpp	/^	double volume;$/;"	m	class:box	file:	access:private
+box::width	././ex04.cpp	/^	double length, width, height;$/;"	m	class:box	file:	access:private
+circles	././4.15/point.cpp	/^	circles(int initx, int inity, int initradius);$/;"	p	class:circles	file:	access:public	signature:(int initx, int inity, int initradius)
+circles	././4.15/point.cpp	/^circles::circles(int initx, int inity, int initradius) : point(initx, inity)$/;"	f	class:circles	signature:(int initx, int inity, int initradius)
+circles	././4.15/point.cpp	/^class circles : public point$/;"	c	file:	inherits:point
+circles::circles	././4.15/point.cpp	/^	circles(int initx, int inity, int initradius);$/;"	p	class:circles	file:	access:public	signature:(int initx, int inity, int initradius)
+circles::circles	././4.15/point.cpp	/^circles::circles(int initx, int inity, int initradius) : point(initx, inity)$/;"	f	class:circles	signature:(int initx, int inity, int initradius)
+circles::hide	././4.15/point.cpp	/^	void hide(void);$/;"	p	class:circles	file:	access:public	signature:(void)
+circles::hide	././4.15/point.cpp	/^circles::hide()$/;"	f	class:circles	signature:()
+circles::moveto	././4.15/point.cpp	/^	void moveto(int nx, int ny);$/;"	p	class:circles	file:	access:public	signature:(int nx, int ny)
+circles::moveto	././4.15/point.cpp	/^circles::moveto(int nx, int ny)$/;"	f	class:circles	signature:(int nx, int ny)
+circles::radius	././4.15/point.cpp	/^	int radius;$/;"	m	class:circles	file:	access:private
+circles::show	././4.15/point.cpp	/^	void show(void);	$/;"	p	class:circles	file:	access:public	signature:(void)
+circles::show	././4.15/point.cpp	/^circles::show()$/;"	f	class:circles	signature:()
+circles::zoomin	././4.15/point.cpp	/^	void zoomin(int expandby);$/;"	p	class:circles	file:	access:public	signature:(int expandby)
+circles::zoomin	././4.15/point.cpp	/^circles::zoomin(int expandby)$/;"	f	class:circles	signature:(int expandby)
+circles::zoomout	././4.15/point.cpp	/^	void zoomout(int contractby);$/;"	p	class:circles	file:	access:public	signature:(int contractby)
+circles::zoomout	././4.15/point.cpp	/^circles::zoomout(int contractby)$/;"	f	class:circles	signature:(int contractby)
+contents	././ex03.cpp	/^	char contents[100];$/;"	m	class:ex_string	file:	access:private
+data_rec	././4_17.cpp	/^	data_rec()$/;"	f	class:data_rec	access:public	signature:()
+data_rec	././4_17.cpp	/^	data_rec(char *ln, char *fn, char *g)$/;"	f	class:data_rec	access:public	signature:(char *ln, char *fn, char *g)
+data_rec	././4_17.cpp	/^class data_rec {$/;"	c	file:
+data_rec	././4_17.cpp	/^class teacher virtual public data_rec{$/;"	c	file:	inherits:data_rec
+data_rec::data_rec	././4_17.cpp	/^	data_rec()$/;"	f	class:data_rec	access:public	signature:()
+data_rec::data_rec	././4_17.cpp	/^	data_rec(char *ln, char *fn, char *g)$/;"	f	class:data_rec	access:public	signature:(char *ln, char *fn, char *g)
+data_rec::first_name	././4_17.cpp	/^	char *first_name;$/;"	m	class:data_rec	file:	access:private
+data_rec::gender	././4_17.cpp	/^	char *gender;$/;"	m	class:data_rec	file:	access:private
+data_rec::last_name	././4_17.cpp	/^	char *last_name;$/;"	m	class:data_rec	file:	access:private
+data_rec::print	././4_17.cpp	/^	void print()$/;"	f	class:data_rec	access:public	signature:()
+data_rec::~data_rec	././4_17.cpp	/^	~data_rec()$/;"	f	class:data_rec	access:public	signature:()
+english_score	././ex02.cpp	/^	float english_score;$/;"	m	class:score	file:	access:private
+ex01.cpp	././ex01.cpp	1;"	F
+ex02.cpp	././ex02.cpp	1;"	F
+ex03.cpp	././ex03.cpp	1;"	F
+ex04.cpp	././ex04.cpp	1;"	F
+ex_string	././ex03.cpp	/^	ex_string(void)$/;"	f	class:ex_string	access:public	signature:(void)
+ex_string	././ex03.cpp	/^class ex_string {$/;"	c	file:
+ex_string::contents	././ex03.cpp	/^	char contents[100];$/;"	m	class:ex_string	file:	access:private
+ex_string::ex_string	././ex03.cpp	/^	ex_string(void)$/;"	f	class:ex_string	access:public	signature:(void)
+ex_string::length	././ex03.cpp	/^	int length;	$/;"	m	class:ex_string	file:	access:private
+ex_string::print_str	././ex03.cpp	/^	void print_str(void) $/;"	f	class:ex_string	access:public	signature:(void)
+ex_string::str_combine	././ex03.cpp	/^	void str_combine(char *str2)$/;"	f	class:ex_string	access:public	signature:(char *str2)
+ex_string::str_len	././ex03.cpp	/^	int str_len(void)$/;"	f	class:ex_string	access:public	signature:(void)
+first_name	././4_17.cpp	/^	char *first_name;$/;"	m	class:data_rec	file:	access:private
+gender	././4_17.cpp	/^	char *gender;$/;"	m	class:data_rec	file:	access:private
+height	././ex04.cpp	/^	double length, width, height;$/;"	m	class:box	file:	access:private
+hide	././4.15/point.cpp	/^	void hide(void)$/;"	f	class:point	access:public	signature:(void)
+hide	././4.15/point.cpp	/^	void hide(void);$/;"	p	class:circles	file:	access:public	signature:(void)
+hide	././4.15/point.cpp	/^circles::hide()$/;"	f	class:circles	signature:()
+idnumber	././4_17.cpp	/^	unsigned int idnumber;$/;"	m	class:student	file:	access:private
+last_name	././4_17.cpp	/^	char *last_name;$/;"	m	class:data_rec	file:	access:private
+length	././ex03.cpp	/^	int length;	$/;"	m	class:ex_string	file:	access:private
+length	././ex04.cpp	/^	double length, width, height;$/;"	m	class:box	file:	access:private
+level	././4_17.cpp	/^	int level;$/;"	m	class:student	file:	access:private
+location	././4.15/point.cpp	/^	location(int intx, int inty)$/;"	f	class:location	access:public	signature:(int intx, int inty)
+location	././4.15/point.cpp	/^class location {$/;"	c	file:
+location::location	././4.15/point.cpp	/^	location(int intx, int inty)$/;"	f	class:location	access:public	signature:(int intx, int inty)
+location::x	././4.15/point.cpp	/^	int x, y;$/;"	m	class:location	file:	access:protected
+location::y	././4.15/point.cpp	/^	int x, y;$/;"	m	class:location	file:	access:protected
+main	././4.15/point.cpp	/^int main(void)$/;"	f	signature:(void)
+main	././4_17.cpp	/^int main()$/;"	f	signature:()
+main	././ex01.cpp	/^int main(void)$/;"	f	signature:(void)
+main	././ex02.cpp	/^int main()$/;"	f	signature:()
+main	././ex03.cpp	/^int main(void)$/;"	f	signature:(void)
+main	././ex04.cpp	/^int main(void)$/;"	f	signature:(void)
+major	././4_17.cpp	/^	char *major;$/;"	m	class:student	file:	access:private
+moveto	././4.15/point.cpp	/^	void moveto(int newx, int newy)$/;"	f	class:point	access:public	signature:(int newx, int newy)
+moveto	././4.15/point.cpp	/^	void moveto(int nx, int ny);$/;"	p	class:circles	file:	access:public	signature:(int nx, int ny)
+moveto	././4.15/point.cpp	/^circles::moveto(int nx, int ny)$/;"	f	class:circles	signature:(int nx, int ny)
+point	././4.15/point.cpp	/^	point(int intx, int inty) : location(intx, inty)$/;"	f	class:point	access:public	signature:(int intx, int inty)
+point	././4.15/point.cpp	/^class point : public location$/;"	c	file:	inherits:location
+point.cpp	././4.15/point.cpp	1;"	F
+point::hide	././4.15/point.cpp	/^	void hide(void)$/;"	f	class:point	access:public	signature:(void)
+point::moveto	././4.15/point.cpp	/^	void moveto(int newx, int newy)$/;"	f	class:point	access:public	signature:(int newx, int newy)
+point::point	././4.15/point.cpp	/^	point(int intx, int inty) : location(intx, inty)$/;"	f	class:point	access:public	signature:(int intx, int inty)
+point::show	././4.15/point.cpp	/^	void show(void)$/;"	f	class:point	access:public	signature:(void)
+print	././4_17.cpp	/^	void print()$/;"	f	class:data_rec	access:public	signature:()
+print	././4_17.cpp	/^	void print()$/;"	f	class:student	access:public	signature:()
+print_str	././ex03.cpp	/^	void print_str(void) $/;"	f	class:ex_string	access:public	signature:(void)
+printscore	././ex02.cpp	/^	void printscore()$/;"	f	class:score	access:public	signature:()
+radius	././4.15/point.cpp	/^	int radius;$/;"	m	class:circles	file:	access:private
+score	././ex02.cpp	/^	score()$/;"	f	class:score	access:public	signature:()
+score	././ex02.cpp	/^class score {$/;"	c	file:
+score::english_score	././ex02.cpp	/^	float english_score;$/;"	m	class:score	file:	access:private
+score::printscore	././ex02.cpp	/^	void printscore()$/;"	f	class:score	access:public	signature:()
+score::score	././ex02.cpp	/^	score()$/;"	f	class:score	access:public	signature:()
+score::setscore	././ex02.cpp	/^	void setscore(float set_number)$/;"	f	class:score	access:public	signature:(float set_number)
+setscore	././ex02.cpp	/^	void setscore(float set_number)$/;"	f	class:score	access:public	signature:(float set_number)
+show	././4.15/point.cpp	/^	void show(void)$/;"	f	class:point	access:public	signature:(void)
+show	././4.15/point.cpp	/^	void show(void);	$/;"	p	class:circles	file:	access:public	signature:(void)
+show	././4.15/point.cpp	/^circles::show()$/;"	f	class:circles	signature:()
+str_combine	././ex03.cpp	/^	void str_combine(char *str2)$/;"	f	class:ex_string	access:public	signature:(char *str2)
+str_len	././ex03.cpp	/^	int str_len(void)$/;"	f	class:ex_string	access:public	signature:(void)
+strsave	././4_17.cpp	/^static char *strsave(char *s)$/;"	f	file:	signature:(char *s)
+student	././4_17.cpp	/^	student(char *ln, char *fn, char *g, char *m, unsigned int id, int l) : data_rec(ln, fn, g)$/;"	f	class:student	access:public	signature:(char *ln, char *fn, char *g, char *m, unsigned int id, int l)
+student	././4_17.cpp	/^class student : virtual public data_rec {$/;"	c	file:	inherits:data_rec
+student::idnumber	././4_17.cpp	/^	unsigned int idnumber;$/;"	m	class:student	file:	access:private
+student::level	././4_17.cpp	/^	int level;$/;"	m	class:student	file:	access:private
+student::major	././4_17.cpp	/^	char *major;$/;"	m	class:student	file:	access:private
+student::print	././4_17.cpp	/^	void print()$/;"	f	class:student	access:public	signature:()
+student::student	././4_17.cpp	/^	student(char *ln, char *fn, char *g, char *m, unsigned int id, int l) : data_rec(ln, fn, g)$/;"	f	class:student	access:public	signature:(char *ln, char *fn, char *g, char *m, unsigned int id, int l)
+student::~student	././4_17.cpp	/^	~student()$/;"	f	class:student	access:public	signature:()
+test	././ex04.cpp	/^int test(char *test)$/;"	f	signature:(char *test)
+vol	././ex04.cpp	/^	void vol(char *test, char a, int c)$/;"	f	class:box	access:public	signature:(char *test, char a, int c)
+volume	././ex04.cpp	/^	double volume;$/;"	m	class:box	file:	access:private
+width	././ex04.cpp	/^	double length, width, height;$/;"	m	class:box	file:	access:private
+x	././4.15/point.cpp	/^	int x, y;$/;"	m	class:location	file:	access:protected
+y	././4.15/point.cpp	/^	int x, y;$/;"	m	class:location	file:	access:protected
+zoomin	././4.15/point.cpp	/^	void zoomin(int expandby);$/;"	p	class:circles	file:	access:public	signature:(int expandby)
+zoomin	././4.15/point.cpp	/^circles::zoomin(int expandby)$/;"	f	class:circles	signature:(int expandby)
+zoomout	././4.15/point.cpp	/^	void zoomout(int contractby);$/;"	p	class:circles	file:	access:public	signature:(int contractby)
+zoomout	././4.15/point.cpp	/^circles::zoomout(int contractby)$/;"	f	class:circles	signature:(int contractby)
+~data_rec	././4_17.cpp	/^	~data_rec()$/;"	f	class:data_rec	access:public	signature:()
+~student	././4_17.cpp	/^	~student()$/;"	f	class:student	access:public	signature:()
