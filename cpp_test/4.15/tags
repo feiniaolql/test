@@ -1,0 +1,38 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+circles	././point.cpp	/^	circles(int initx, int inity, int initradius);$/;"	p	class:circles	file:	access:public	signature:(int initx, int inity, int initradius)
+circles	././point.cpp	/^class circles : public point$/;"	c	file:	inherits:point
+circles::circles	././point.cpp	/^	circles(int initx, int inity, int initradius);$/;"	p	class:circles	file:	access:public	signature:(int initx, int inity, int initradius)
+circles::hide	././point.cpp	/^	void hide(void);$/;"	p	class:circles	file:	access:public	signature:(void)
+circles::moveto	././point.cpp	/^	void moveto(int nx, int ny);$/;"	p	class:circles	file:	access:public	signature:(int nx, int ny)
+circles::radius	././point.cpp	/^	int radius;$/;"	m	class:circles	file:	access:private
+circles::show	././point.cpp	/^	void show(void);	$/;"	p	class:circles	file:	access:public	signature:(void)
+circles::zoomin	././point.cpp	/^	void zoomin(int expandby);$/;"	p	class:circles	file:	access:public	signature:(int expandby)
+circles::zoomout	././point.cpp	/^	void zoomout(int contractby);$/;"	p	class:circles	file:	access:public	signature:(int contractby)
+hide	././point.cpp	/^	void hide(void)$/;"	f	class:point	access:public	signature:(void)
+hide	././point.cpp	/^	void hide(void);$/;"	p	class:circles	file:	access:public	signature:(void)
+location	././point.cpp	/^	location(int intx, int inty)$/;"	f	class:location	access:public	signature:(int intx, int inty)
+location	././point.cpp	/^class location {$/;"	c	file:
+location::location	././point.cpp	/^	location(int intx, int inty)$/;"	f	class:location	access:public	signature:(int intx, int inty)
+location::x	././point.cpp	/^	int x, y;$/;"	m	class:location	file:	access:protected
+location::y	././point.cpp	/^	int x, y;$/;"	m	class:location	file:	access:protected
+moveto	././point.cpp	/^	void moveto(int newx, int newy)$/;"	f	class:point	access:public	signature:(int newx, int newy)
+moveto	././point.cpp	/^	void moveto(int nx, int ny);$/;"	p	class:circles	file:	access:public	signature:(int nx, int ny)
+point	././point.cpp	/^	point(int intx, int inty) : location(intx, inty)$/;"	f	class:point	access:public	signature:(int intx, int inty)
+point	././point.cpp	/^class point : public location$/;"	c	file:	inherits:location
+point.cpp	././point.cpp	1;"	F
+point::hide	././point.cpp	/^	void hide(void)$/;"	f	class:point	access:public	signature:(void)
+point::moveto	././point.cpp	/^	void moveto(int newx, int newy)$/;"	f	class:point	access:public	signature:(int newx, int newy)
+point::point	././point.cpp	/^	point(int intx, int inty) : location(intx, inty)$/;"	f	class:point	access:public	signature:(int intx, int inty)
+point::show	././point.cpp	/^	void show(void)$/;"	f	class:point	access:public	signature:(void)
+radius	././point.cpp	/^	int radius;$/;"	m	class:circles	file:	access:private
+show	././point.cpp	/^	void show(void)$/;"	f	class:point	access:public	signature:(void)
+show	././point.cpp	/^	void show(void);	$/;"	p	class:circles	file:	access:public	signature:(void)
+x	././point.cpp	/^	int x, y;$/;"	m	class:location	file:	access:protected
+y	././point.cpp	/^	int x, y;$/;"	m	class:location	file:	access:protected
+zoomin	././point.cpp	/^	void zoomin(int expandby);$/;"	p	class:circles	file:	access:public	signature:(int expandby)
+zoomout	././point.cpp	/^	void zoomout(int contractby);$/;"	p	class:circles	file:	access:public	signature:(int contractby)
